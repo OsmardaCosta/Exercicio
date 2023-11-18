@@ -1,0 +1,101 @@
+@charset "UTF8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url('spray-wallpaper-preview.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+   background-image: linear-gradient(to right, rgb(198, 153, 27), green);
+    height: 7em;
+    padding: 10px;
+    color: white;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 227);
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(162, 250, 0, 0.187);
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.imagem {
+    display: flex;
+    margin: auto;
+    box-shadow: 7px 7px 9px rgba(4, 4, 4, 0.57);
+    margin-bottom: 30px;
+    width: 75%;
+}
+
+.intro{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 3px rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 10px;
+    width: 88%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tiposG {
+    color: white;
+    background-image: linear-gradient(to right, rgb(198, 153, 27), green);
+    padding: 2px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.p1 {
+    width: 800px;
+    margin: auto;
+    font-size: 22px;
+}
+
+main section {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    display: flex;
+    margin: auto;
+}
+
+footer {
+    margin-bottom: -30px;
+    background-color: rgb(133, 133, 2);
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 1px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
